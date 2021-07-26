@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+   
+    <title>Document</title>
+    <style type="text/css"> 
+    html{
+      width: 1000px;
+      height: 2000px;
+    }
+
+    body{
+        margin: 0px 50px ;
+        padding: 0;
+        font-family:Calibri;
+        width: 180%;
+    }
+
+    nav {
+        background-color: #333333;
+        height: 100px;
+        
+       
+    }
+
+    .logo {
+        display: inline-block;
+        list-style-type: none;
+        color: white;
+        font-size: 48pt;
+        margin: 0;
+        padding: 0;
+        margin-left: 100px;
+
+       
+    }
+
+    .navbar{
+      
+        list-style-type: none;
+        float: right;
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+        margin-right: 100px;
+       
+        
+    }
+    .navbar li {
+        display: inline;
+        padding: .3em;
+      
+        
+       
+    }
+
+    
+    .navbar a {
+        text-decoration: none;
+        color: white;
+        
+    }
+     .tabs  {
+        list-style-type: none;
+        display: inline;
+        margin: 0;
+       
+        
+    }
+    .tabs a {
+        text-decoration: none;
+        color: #333333;
+       
+       
+    }
+   
+    
+    .tabs li {
+        display: inline;
+        padding: 10px;
+        font-size: 16pt;
+        
+       
+        
+    }
+  
+
+    .tabs-1  {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+
+    input[type=search]{
+        width: 250px;
+        padding: 16px;
+        margin-left: 650px;
+       
+      
+        
+    }
+
+   
+
+    .flex-container-1 {
+  display: flex;
+  flex-direction: row;
+  font-size: 58px;
+  text-align: center;
+  background-color: rgb(226, 225, 225);
+        height: auto;
+}
+
+.flex-item-left {
+  text-align: left;
+  margin-left: 50px;
+  flex: 50%;
+  margin-top: 100px;
+  font-size: 58pt;
+  color: #333333;
+}
+
+.flex-item-right {
+  text-align: left;
+  flex: 50%;
+  font-size: 18pt;
+  color: #333333;
+}
+.img {
+    margin-left: 150px;
+}
+
+.flex-container-2{
+   
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.placeholder img,.placeholder-1 img{
+    margin: 40px auto 0 auto;
+  color: #333333;
+ 
+  width: 200px;
+  margin: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 200px;
+  
+  font-size: 20px;
+}
+
+
+.placeholder {
+  margin: 40px auto 0 auto;
+  color: #333333;
+ 
+  width: 200px;
+  margin: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+  font-size: 20px;
+}
+
+.placeholder-1 {
+  width: 200px;
+  height: 250px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+ 
+  line-height: 50px;
+ 
+}
+
+
+h2 {
+   
+    margin-top: 40px;
+    font-size: 30pt;
+    font-weight: normal;
+}
+
+.text {
+ text-align: center;
+ margin: 0;
+ margin-right: auto;
+ margin-left: auto;
+ 
+
+ margin-bottom: 0;
+ font-size: 20pt;
+ 
+ 
+}
+
+.flex-container-3 {
+    display: flex;
+    margin-top: 50px;
+  height: 250px;
+
+  justify-content: space-evenly;
+  background-color: white;
+  
+}
+.links a {
+        text-decoration: none;
+        color: black;   
+        font-size: 14pt;
+       padding: 20px;
+      
+
+}
+.links {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+    margin-top: 100px;
+}
+.flex-container-4 {
+    margin-top: 60px;
+    background-color: black;
+    height: 500px;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: white;
+}
+.footer {
+    margin-top: 40px;
+}
+h2::first-letter {
+  font-size: 200%;
+}
+.container {
+  position: relative
+}
+
+    
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="logo">
+            <li>eStore</li>
+           
+        </ul>
+
+        <ul class="navbar">
+            <li><a href="#html"> My Account</a></li>
+            <li><a href="#html"> Wishlist</a></li>
+            <li><a href="#html"> Shopping</a></li>
+            <li><a href="#html"> Cart</a></li>
+            <li><a href="#html"> Checkout</a></li>
+        </ul>
+
+       
+    </nav>
+
+    <div class="tabs-1">
+    <ul class="tabs">
+        <li><a href="#html"> Men</a></li>
+        <li><a href="#html"> Women</a></li>
+        <li><a href="#html">Kids</a></li>
+        <li><a href="#html"> Protective Wear</a></li>
+        <li><a href="#html"> Footwear</a></li>
+        <li><a href="#html"> Accessories</a></li>
+        <li><a href="#html"> Friday Casual</a></li>  
+      </ul>
+      <input type="search" name="search-product" id="search-product" placeholder="Search for Products & Brands" >
+
+</div>
+
+       
+            
+        
+       
+
+<div class="flex-container-1">
+    <div class="img">
+       <img src="images/mask.png" alt="Mask-Image" height="400px">
+    </div>
+    <div class="flex-item-left" >STAY HOME, <br> STAY SAFE.</div>
+    <div class="flex-item-right">
+        <p>Contactless Deliveries</p>
+
+        <p>All delivery staff trained in COVID-19 <br> preventive measures</p>
+        <p>All Delivery and warehouse staff are equipped with <br> medical-grade hand Sanitizers</p>
+        <p>All warehouses staff undergo daily mandatory <br> thermal temperature scanning</p>
+        <p>No deliveries in highly "affected" areas</p>
+    </div>
+  </div>
+
+  <h2 style="margin-left:50px;">Deals of the day </h2>
+
+
+  <div class="flex-container-2">
+    
+    <div>
+      <div class="placeholder">
+        <img src="images/placeholder-1.png" alt="placeholder">
+      </div>
+      <div class="text">Sports &fitness Gear Upto 80% off</div>
+      </div>
+
+      <div>
+        <div class="placeholder">
+          <img src="images/placeholder-1.png" alt="placeholder">
+        </div>
+      <div class="text">Branded Jeans Upto 50% Off</div>
+    </div>
+
+    <div>
+      <div class="placeholder">
+        <img src="images/placeholder-1.png" alt="placeholder">
+      </div>
+      <div class="text">Branded T-Shirts Upto 60% Off</div>
+    </div>
+
+    <div>
+      <div class="placeholder">
+        <img src="images/placeholder-1.png" alt="placeholder">
+      </div>
+      <div class="text">Sports &fitness Gear Upto 50% off</div>
+    </div>
+
+    <div>
+      <div class="placeholder">
+        <img src="images/placeholder-1.png" alt="placeholder">
+      </div>
+      <div class="text">Branded T-Shirts Upto 40% Off</div>
+    </div>
+
+    <div>
+      <div class="placeholder">
+        <img src="images/placeholder-1.png" alt="placeholder">
+      </div>
+      <div class="text">Sports Girls T Shirts Upto 50% Off</div>
+    </div>
+
+  </div>
+
+  <h2 style="margin-left: 200px;">Fashion Categories</h2>
+
+  <div class="flex-container-3">
+      <div class="container">
+        <div class="placeholder-1">
+         
+          <img src="images/placeholder-1.png" alt="placeholder">
+        <div class="text">Kurtas</div>
+          
+        </div>
+      
+      </div>
+
+      <div class="container">
+        <div class="placeholder-1">
+          <img src="images/placeholder-1.png" alt="placeholder">
+          <div class="text">Shirts</div>
+        </div>
+        
+      </div>
+
+      <div class="container">
+        <div class="placeholder-1">
+          <img src="images/placeholder-1.png" alt="placeholder">
+          <div class="text">Pants</div>
+        </div>
+       
+      </div>
+
+      <div class="container">
+        <div class="placeholder-1">
+          <img src="images/placeholder-1.png" alt="placeholder">
+          <div class="text">T-shirts</div>
+        </div>
+       
+      </div>
+  </div>
+
+  <div class="flex-container-3">
+    <div class="container">
+      <div class="placeholder-1">
+        <img src="images/placeholder-1.png" alt="placeholder">
+        <div class="text">Shoes</div>
+      </div>
+     
+    </div>
+
+    <div class="container">
+      <div class="placeholder-1">
+        <img src="images/placeholder-1.png" alt="placeholder">
+        <div class="text">Casual shirts</div>
+      </div>
+     
+    </div>
+
+    <div class="container">
+      <div class="placeholder-1">
+        <img src="images/placeholder-1.png" alt="placeholder">
+        <div class="text">JEANS</div>
+      </div>
+    
+    </div>
+
+    <div class="container">
+      <div class="placeholder-1">
+        <img src="images/placeholder-1.png" alt="placeholder">
+        <div class="text">Tops</div>
+      </div>
+      
+    </div>
+</div>
+
+<div class="links">
+<a href="#adidas">Adidas</a> | <a href="#arrow">Arrow</a> | <a href="#Fila">Fila</a>  | <a href="#OnlineShopping">Online shopping</a> | <a href="#Nike">Nike</a> | <a href="#PepeJeans">Pepe Jeans</a> | <a href="#Puma">Puma</a> | <a href="#UnnitedBenetto">United Colors of Benetton</a>  
+|<a href="#Fastrack">Fastrack</a> | <a href="#Shorts">Shorts</a> | <a href="#BeingHuman">Being Human</a> | <a href="#Skirts">Skirts</a> | <a href="#Woodland">Woodland</a> | <a href="#Supra">Supra Dresses Clothing</a> | <a href="#Jewellery">Jewellery</a> | <a href="#T-shirts">T-shirts</a>
+|<a href="#shoes">Shoes</a> | <a href="#Bags">Bags</a> | <a href="#Watches">Watches</a> | <a href="#Caps">Shirts</a> | <a href="#Backpacks">Backpacks</a>   | <a href="#FlipFlops">Flip Flops</a> | <a href="#sunglasses">Sunglasses</a> | <a href="#kurtas">Kurtas</a> | <a href="#Jackets">Jackets</a>
+|<a href="#Sketchers">Sketchers</a>  | <a href="#Saree">Saree</a> | <a href="#Sandals">Sandals</a> | <a href="#puma">Puma T-shirts</a>  | <a href="#WLshoes">Woodland Shoes</a> | <a href="#TitanWatches">Titan Watches</a> | <a href="#fastrackWatches">Fastrack Watches</a>
+|<a href="#Fils">Fila</a> | <a href="#adidas">Adidas</a> | <a href="#arrow">Arrow</a> | <a href="#Fila">Fila</a>  | <a href="#OnlineShopping">Online shopping</a> | <a href="#Nike">Nike</a> | <a href="#PepeJeans">Pepe Jeans</a> | <a href="#Puma">Puma</a> | <a href="#UnnitedBenetto">United Colors of Benetton</a>  
+|<a href="#Fastrack">Fastrack</a> | <a href="#Shorts">Shorts</a> | <a href="#BeingHuman">Being Human</a> | <a href="#Skirts">Skirts</a> | <a href="#Woodland">Woodland</a> | <a href="#Supra">Supra Dresses Clothing</a> | <a href="#Jewellery">Jewellery</a> | <a href="#T-shirts">T-shirts</a>
+|<a href="#shoes">Shoes</a> | <a href="#Bags">Bags</a> | <a href="#Watches">Watches</a> | <a href="#Caps">Shirts</a> | <a href="#Backpacks">Backpacks</a>   | <a href="#FlipFlops">Flip Flops</a> | <a href="#sunglasses">Sunglasses</a> | <a href="#kurtas">Kurtas</a> | <a href="#Jackets">Jackets</a>
+|<a href="#Sketchers">Sketchers</a>  | <a href="#Saree">Saree</a> | <a href="#Sandals">Sandals</a> | <a href="#puma">Puma T-shirts</a>  | <a href="#WLshoes">Woodland Shoes</a> | <a href="#TitanWatches">Titan Watches</a> | <a href="#fastrackWatches">Fastrack Watches</a>
+|<a href="#Fils">Fila</a> 
+     
+</div>
+<footer>
+    <div class="flex-container-4">
+        <div>
+            <div class="footer">
+                <h3>My Account</h3>
+                <p><a href="#Orders">Orders</a></p>
+                <p><a href="#Orders">Returns / Refunds</a></p>
+                <p><a href="#Orders">Track Order</a></p>
+                <p><a href="#Orders">Frequently Asked Questions</a></p>
+            </div>
+           
+        </div>
+
+        <div>
+            <div class="footer">
+                <h3>My Account</h3>
+                <p><a href="#Orders">Payment Options </a></p>
+                <p><a href="#Orders">Terms & Conditions</a></p>
+                <p><a href="#Orders">Terms & Conditions of Membership Program</a></p>
+                <p><a href="#Orders">Offer Terms & conditions</a></p>
+                <p><a href="#Orders">Returns & Exchange Policy</a></p>
+                <p><a href="#Orders">Shipping Policy</a></p>
+                <p><a href="#Orders">Privacy Policy</a></p>
+                <p><a href="#Orders">Safety Checklist</a></p>
+            </div>
+           
+        </div>
+
+        <div>
+            <div class="footer">
+                <h3>CONTACT US</h3>
+                <p><a href="#Orders">Customer Support</a></p>
+                <p><a href="#Orders">Store Locators</a></p>
+                <p><a href="#Orders">Help Center</a></p>
+                <br>
+                <h3>ABOUT US</h3>
+                <p><a href="#Orders">Official Brand Store</a></p>
+                <p><a href="#Orders">About us</a></p>
+                <p><a href="#Orders">Careers</a></p>
+            </div>
+           
+
+            </div>
+            <div>
+                <div class="footer">
+                    <h3>SOCIAL</h3>
+                    <p><a href="#Orders">Facebook</a></p>
+                    <p><a href="#Orders">Twitter</a></p>
+                    <p><a href="#Orders">YouTube</a></p>
+                    
+                </div>
+        </div>
+
+       
+
+            
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
